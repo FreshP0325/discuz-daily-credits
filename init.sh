@@ -2,11 +2,10 @@
 
 # 1. 安装 Python 和 pip
 sudo apt update
-sudo apt install cron python3 python3-pip -y
+sudo apt install wget cron python3 python3-requests python3-pyaes -y
 
 # 2. 下载脚本和依赖
 wget https://github.com/FreshP0325/discuz-daily-credits/raw/main/hostloc_auto_get_points.py
-pip3 install requests pyaes
 
 # 3. 检查配置文件是否存在
 config_file="hostloc_config.txt"
